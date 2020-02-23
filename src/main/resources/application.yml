@@ -4,9 +4,9 @@ spring:
     hikari:
       idle-timeout: 10000
     platform: mysql
-    username: ${DB_USERNAME}
-    password: ${DB_PASSWORD}
-    url: jdbc:mysql://${DB_HOST}/${DB_NAME}
+    username: venki
+    password: password
+    url: jdbc:mysql://172.31.33.5:3306/testdb?useSSL=false
   jpa:
     hibernate:
       naming:
